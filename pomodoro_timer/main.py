@@ -11,8 +11,6 @@ LONG_BREAK_MIN = 15
 rep = 0
 timer = None
 
-# ---------------------------- TIMER RESET ------------------------------- # 
-
 def start_timer():
     global rep
     rep += 1
@@ -52,17 +50,6 @@ def reset():
     label_check.config(text="")
     global rep
     rep = 0
-
-    
-    
-
-
-
-
-# ---------------------------- TIMER MECHANISM ------------------------------- # 
-
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
-
 
 window = Tk()
 window.title("Pomodoro Timer")
